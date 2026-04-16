@@ -6,8 +6,8 @@ terraform {
     }
   }
   backend "azurerm" {
-    resource_group_name  = "rg-dev-todoapp-01"
-    storage_account_name = "twostates"
+    resource_group_name  = "rg-dev"
+    storage_account_name = "developsa01"
     container_name       = "tfstate"
     key                  = "dev.tfstate"
   }
