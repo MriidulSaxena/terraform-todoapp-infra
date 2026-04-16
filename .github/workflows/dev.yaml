@@ -1,7 +1,7 @@
 name: "Dev Terraform Workflow"
 
 on:
-  pull_request:
+  workflow_dispatch:
     branches:
       - main
   push:
